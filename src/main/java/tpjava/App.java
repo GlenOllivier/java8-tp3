@@ -1,13 +1,12 @@
 package tpjava;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+
+import tpjava.view.Menu;
+
+public class App {
+    public static void main(String[] args) {
+        Menu.menu();
     }
+
+
 }
